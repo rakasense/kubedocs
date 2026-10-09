@@ -1,0 +1,40 @@
+/* =========================================================
+   Observatory — global tokens for the deck route.
+   Loaded once by the deck page.
+   ========================================================= */
+
+:root {
+  --bg-0: #07090d;
+  --bg-1: #0c1016;
+  --bg-2: #11161f;
+  --bg-3: #161d28;
+  --ink: #e7ecf3;
+  --ink-soft: #aab3c2;
+  --ink-mute: #6c7686;
+  --line: #1d2532;
+  --line-soft: #161c26;
+  --accent: #5cf2d3;
+  --accent-2: #7c9bff;
+  --warn: #ffb454;
+  --danger: #ff6b6b;
+  --code-bg: #06080c;
+  --code-ink: #d9e0ec;
+  --code-key: #7c9bff;
+  --code-str: #5cf2d3;
+  --code-num: #ffb454;
+  --code-com: #4a5466;
+  --code-punc: #98a2b3;
+  --grid: rgba(124, 155, 255, 0.045);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
